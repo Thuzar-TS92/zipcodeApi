@@ -1,14 +1,14 @@
 <?php
-include_once '../config/database.php';
-include_once '../objects/zipcode.php';
-include_once '../header/index.php';
-include_once '../config/response.php';
-require '../vendor/autoload.php';
+include_once 'config/database.php';
+include_once 'objects/zipcode.php';
+include_once 'header/index.php';
+include_once 'config/response.php';
+require 'vendor/autoload.php';
 
 use Dotenv\Dotenv;
 use config\Database;
 
-$dotenv = Dotenv::createImmutable(__DIR__.'/../');
+$dotenv = Dotenv::createImmutable(__DIR__);
 $dotenv->load();
 
 $db = (new Database())->connet();
