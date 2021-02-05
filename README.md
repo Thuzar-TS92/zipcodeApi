@@ -20,7 +20,7 @@
 **Search with key**
    
 
-     http://localhost:9090/RestApi/zipcode_api?s={keywords}
+     http://localhost:9090/RestApi/zipcode_api.php?s={keywords}
 
  if want to change 's' request field 
 
