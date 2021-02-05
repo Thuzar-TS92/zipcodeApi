@@ -15,12 +15,12 @@
 # URL
 **Read All**
 
-    http://localhost:9090/rest-api/zipcode
+    http://localhost:9090/RestApi/zipcode_api.php
 
 **Search with key**
    
 
-     http://localhost:9090/rest-api/zipcode/?s={keywords}
+     http://localhost:9090/RestApi/zipcode_api?s={keywords}
 
  if want to change 's' request field 
 
