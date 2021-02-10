@@ -32,7 +32,8 @@ function search($keywords){
         //  return $keywords;
          // select all query
          try {
-            $query = "SELECT * FROM ".$this->table_name." WHERE zip7_code LIKE '$keywords%'";
+            $keywords = (int)$keywords;
+            $query = "SELECT * FROM ".$this->table_name." WHERE zip7_code LIKE '$keywords'";
             // prepare query statement
             $stmt = $this->conn->prepare($query);
            

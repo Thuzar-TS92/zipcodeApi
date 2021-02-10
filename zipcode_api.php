@@ -15,7 +15,7 @@ $db = (new Database())->connet();
 
 
 $zipcode = new zipcode($db);
-$keywords = isset($_GET["s"]) ? $_GET["s"] : "";
+$keywords = isset($_GET["code"]) ? $_GET["code"] : "";
 if(!empty($keywords)){
 
     $stmt = $zipcode->search($keywords);
