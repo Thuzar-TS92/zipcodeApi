@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteBase /RestApi/
+RewriteRule zipcode_api zipcode_api.php

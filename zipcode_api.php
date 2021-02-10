@@ -35,6 +35,7 @@ if($num>0){
         extract($row);
         $zipcode_item=array(
             "id" => $id,
+            "zipcode" => $zip7_code,
             "pref" => $pref,
             "city" => $city,
             "street" => $street,
